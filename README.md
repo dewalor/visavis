@@ -1,21 +1,16 @@
 # Visavis
 
-**TODO: Add description**
+Basic chat app in Elixir based on Logan Bresnahan's blog post Elixir WebSocket Chat Example w/o Phoenix.
 
-## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `visavis` to your list of dependencies in `mix.exs`:
+## Install & Run
+Fetch and compile dependencies:
+ `mix deps.get`
+ `mix deps.compile`
 
-```elixir
-def deps do
-  [
-    {:visavis, "~> 0.1.0"}
-  ]
-end
-```
+Start the development server:
+`iex -S mix`
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/visavis>.
+Visit `http://localhost:4000/`, ideally in two different browers.  Type a message in the input field and hit the "send" button in one window.  The message should show up in the other window, and vice versa.
+
 
